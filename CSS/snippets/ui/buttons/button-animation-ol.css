@@ -1,0 +1,17 @@
+/*** Olivier Larose Button Animation ****/
+
+.button {
+  color: rgb(68 121 226);
+  background-color: rgb(235, 239, 249);
+  border: solid transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.button:hover {
+  border: solid rgb(68 121 226);
+  box-shadow: 0 0 1.2rem 0.3rem rgba(59, 130, 254, 0.5);
+  transition:
+    border 0.4s ease,
+    box-shadow 0.6s ease;
+}
